@@ -27,6 +27,13 @@ export interface ThemeContextType {
   toggleTheme: () => void;
 }
 
+export interface QuizQuestion {
+  id: number;
+  question: string;
+  options: string[];
+  correctAnswerIndex: number; // 0-3
+}
+
 export interface AppState {
   user: User | null;
   currentPage: Page;
