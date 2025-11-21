@@ -1,0 +1,5 @@
+{
+  "name": "StreamInsight Player",
+  "description": "A modern video player application with user tracking, bookmarking, and clickstream analysis features.",
+  "requestFramePermissions": []
+}
